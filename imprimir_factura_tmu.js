@@ -14,7 +14,7 @@ function callService(data) {
     .then((response) => console.log("Success:", response));
 }
 
-function Print(processName) {
+function print(processName) {
   apex.server.process(
     processName,
     {},
